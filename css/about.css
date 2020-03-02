@@ -1,0 +1,206 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body { background-color: #f7c08f}
+.container { 
+    margin: auto;
+    max-width: 1200;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+
+
+
+
+.btn { 
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background: #f7c08f;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+ }
+#navbar { 
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a { 
+    color: #fff;
+}
+
+#navbar h1{
+    float: left; 
+    padding-top: 20px;
+
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+/* Command ? */
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08f;
+
+}
+a {
+    color: #333;
+text-decoration: none;
+}
+
+
+
+
+.h1 {text-align: center;
+font-size: 40px;}
+
+#aboutus {background: url('../img/shutterstock_722018410.jpg') no-repeat center/cover;
+color: #f7c08f;
+width: 100%;
+height: 500px;
+padding-top: 5px;
+}
+
+.lorem {font-size: 35px;}
+
+.container1 {border: 2px #f7c08f solid;
+padding: 10px; 
+background-color: rgba(0, 0, 0, 0.5);
+margin: auto;
+
+}
+ 
+#container2 {display: flex; 
+} 
+ #container2 div {border: 1px #f7c08f solid;
+}
+
+.info {color: #f7c08f;
+    border: 4px #f7c08f solid;
+    padding: 10px; 
+    background-color: #444;
+    flex-basis: 33.33%;}
+
+.person1 {
+background: url('../img/person-1.jpg');
+height: 300px;
+width: 300px;
+}
+
+.person1_info {
+
+font-size: 1.7em;
+
+}
+.info2 { color: #f7c08f;
+    background-color: #444;
+border: 4px #f7c08f solid;
+padding: 10px;
+flex-basis: 33.33%;
+}
+
+.person2 { background: url('../img/person-2.jpg');
+height: 300px;
+width: 300px;
+}
+
+.info3 { color: #f7c08f;
+    background-color: #444;
+    border: 4px #f7c08f solid;
+    padding: 10px;
+    flex-basis: 33.33%;
+
+}
+
+.person3 {background: url('../img/download.jpeg') no-repeat center/cover;
+    height: 300px;
+    width: 300px;
+    border-right: 4px #f7c08f;
+    
+}
+  
+
+.head {
+    text-align: center;
+    background: #444;
+    color: #f7c08f;
+    
+
+}
+#container3 {display: flex;
+justify-content: space-around;}
+
+.fun{ color: #f7c08f;
+    background-color: #444;
+    border: 4px #f7c08f solid;
+    padding: 10px;
+    flex-basis: 40%;
+    text-align: center;
+
+}
+
+.stadium{
+    background: url('../img/bofastadiuim.jpg') no-repeat center/cover;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    display: inline-block;
+}
+
+.fun1 { color: #f7c08f;
+    background-color: #444;
+    border: 4px #f7c08f solid;
+    flex-basis: 40%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.stadium1 { 
+    background: url('../img/hornets.jpeg') no-repeat center/cover;
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    display: inline-block;
+
+
+}
+
+.button {display: inline-block;
+border: 1px #f7c08f solid;
+color: #f7c08f;
+border-radius: 10%;
+padding: 10px;}
+
+.button:hover {background-color: #f7c08f;
+color: #444;
+}
