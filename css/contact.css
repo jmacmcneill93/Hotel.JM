@@ -1,28 +1,34 @@
-
-.l-heading {font-size: 40px;
+.l-heading {
+    font-size: 40px;
 }
 
 /* Padding */
+
 .py-1 {
     padding: 10px 0;
 }
-.py-2 {padding: 20px 0;}
-.py-3 {padding: 30px 0;}
-#navbar { 
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+#navbar {
     background: #333;
     color: #fff;
     overflow: auto;
 }
 
-#navbar a { 
+#navbar a {
     color: #fff;
 }
 
-#navbar h1{
-    float: left; 
+#navbar h1 {
+    float: left;
     padding-top: 20px;
-
-
 }
 
 #navbar ul {
@@ -39,41 +45,43 @@
     padding: 20px;
     text-align: center;
 }
+
 /* Command ? */
-#navbar ul li a:hover, 
-#navbar ul li a.current{
+
+#navbar ul li a:hover, #navbar ul li a.current {
     background: #444;
     color: #f7c08f;
-
 }
 
 /* Contact Form */
+
 #contact-form .form-group {
     margin-bottom: 20px;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-#contact-form label{
+#contact-form label {
     display: block;
     margin-bottom: 5px;
 }
 
-#contact-form input,
-#contact-form textarea {
+#contact-form input, #contact-form textarea {
     width: 100%;
     padding: 10px;
     border: 1px #ddd solid;
 }
+
 #contact-form textarea {
     height: 200px;
 }
 
-#contact-form input:focus,
-#contact-form textarea:focus {
+#contact-form input:focus, #contact-form textarea:focus {
     outline: none;
     border-color: #f7c08a;
 }
-.btn { 
+
+.btn {
     display: inline-block;
     font-size: 18px;
     color: #fff;
@@ -81,29 +89,34 @@
     padding: 13px 20px;
     border: none;
     cursor: pointer;
-
+    margin-left: 20px;
 }
 
-#features { display: flex;
-    color: white; 
-background-color: #333;}
+#features {
+    display: flex;
+    color: white;
+    background-color: #333;
+}
 
-.span-text{ color: #f7c08f;}
- 
-#features p{ font-size: 15px;}
+.span-text {
+    color: #f7c08f;
+}
 
-.box1 { flex-basis: 33.33%; 
+#features p {
+    font-size: 15px;
+}
+
+.box1 {
+    flex-basis: 33.33%;
     text-align: center;
-
 }
 
-.box2 { flex-basis: 33.33%;
+.box2 {
+    flex-basis: 33.33%;
     text-align: center;
-
 }
 
-.box3 { flex-basis: 33.33%;
+.box3 {
+    flex-basis: 33.33%;
     text-align: center;
-
 }
-
